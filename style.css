@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	height: 60px;
+	display: block;
+	background-color: #101010;
+}
+
+.inner_header{
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.s_header{
+	width: 50px;
+	height: 40px;
+	display: block;
+	margin: 50;
+	background-color: #FFA500;
+	
+}
+
+.logo_container{
+	height: 100%;
+	display: table;
+	float: left;
+	padding-top: 8px;
+	padding-bottom: 18.5px;
+
+}
+
+.logo_container h1{
+	color: white;
+	height:100%
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Montserrat';
+	font-size:32px;
+	font-weight: 200;
+
+}
+.logo_container h1 span{
+	font-weight: 800;
+}
+
+.navigation a{
+	height: 100%;
+	display: table;
+	float: right;
+	padding: 0px 20px;
+	padding-top: 18.5px;
+	padding-bottom: 18.5px;
+}
+
+.navigation a:hover{
+	background:purple;
+	transition: 0.5s;
+	text-transform: uppercase;
+}
+
+.navigation a: last-child{
+	padding-right: 0;
+}
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+.navigation1 a{
+	height: 100%;
+	display: table;
+	float: right;
+	padding: 0px 20px;
+	padding-top: 18.5px;
+	padding-bottom: 18.5px;
+}
+
+.navigation1 a:hover{
+	background:blue;
+	transition: 0.5s;
+	text-transform: uppercase;
+}
+
+.navigation1 a: last-child{
+	padding-right: 0;
+}
+
+.navigation1 a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 16px;
+}
+
+
+
+.carousel-container{
+	width: 90%;
+	margin: auto;
+	border: 5px solid black;
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel-slide{
+	display: flex;
+	width: 90%;
+	height: 500px;
+}
+
+#prevBtn{
+	position: absolute;
+	top: 50%;
+	z-index:10;
+	left: 5%;
+	font-size: 30px;
+	color: white;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#nextBtn{
+	position: absolute;
+	top: 50%;
+	z-index:10;
+	right: 5%;
+	font-size: 30px;
+	color: white;
+	opacity: 0.5;
+	cursor: pointer;
+}
